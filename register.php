@@ -5,7 +5,7 @@
     <title>Registration system PHP  and MySQL</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <script type="text/javascript" src="jquery.js"></script>
+
     <script type="text/javascript">
     function do_login()
     {
@@ -77,7 +77,7 @@
 <div class="header">
     <h2>Register</h2>
 </div>
-<form method="post" action="register.php">
+<form  class="frm"  method="post" action="register.php">
     <?php include('errors.php');
     $username = "";
      $email = "";
@@ -112,5 +112,9 @@
 
 
 </form>
+<script type="text/javascript" src="jquery.js"></script>
+<script src="js/form-validation.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.4/jquery.validate.min.js" integrity="sha512-FOhq9HThdn7ltbK8abmGn60A/EMtEzIzv1rvuh+DqzJtSGq8BRdEN0U+j0iKEIffiw/yEtVuladk6rsG4X6Uqg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
